@@ -3,7 +3,7 @@ import Herosection from './sections/Herosection/page'
 
 const page = () => {
   return (
-    <div className='max-w-[100vw] overflow-hidden'>
+    <div className=''>
       <Herosection/>
     </div>
   )

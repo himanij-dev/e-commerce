@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between  bg-amber-300 ">
+    <div className="flex justify-between px-10 py-6">
       <div className="flex gap-5">
         <p>Women</p>
         <p>Men</p>
