@@ -6,8 +6,8 @@ export interface ButtonType{
 }
 
 export interface CategoryCardType{
-    title:string;
-    imagesrc: string;
+    name:string;
+    image: string;
 }
 
 export interface NewAndPopularDataType{
@@ -19,4 +19,9 @@ export interface NewAndPopularDataType{
 export interface InputType{
    type:string,
    placeholder:string,
+}
+
+export interface loginTypes{
+    email:string;
+    password:string
 }

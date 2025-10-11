@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -12,6 +13,7 @@ const Navbar = () => {
         <p>Search </p>
         <p>Profile </p>
         <p>Cart </p>
+        <Link href="/login">Login</Link>
       </div>
     </div>
   );
